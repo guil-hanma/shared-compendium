@@ -1,7 +1,7 @@
 {
   "id": "shared-compendium",
   "title": "Shared-Compendium",
-  "version": "1.0.0",
+  "version": "1.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -12,24 +12,33 @@
       "label": "Itens",
       "path": "packs/itens",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "magias",
       "label": "Magias",
       "path": "packs/magias",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
-      "flags": {}
+      "system": "dnd5e"
     }
   ]
 }
